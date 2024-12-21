@@ -68,7 +68,7 @@ export default function City(props) {
             ) : (
                 <div>
                     <img src={pic} alt="Weather condition" width="420" />
-                    <h1 className="cityname">{state.city}</h1>
+                    <h2 className="cityname">{state.city}</h2>
                     <p>Temperature: {state.temperature}°C</p>
                     <p>Temperature Min: {state.temperaturemin}°C</p>
                     <p>Temperature Max: {state.temperaturemax}°C</p>
